@@ -53,13 +53,15 @@
 
         权限SDK：com.linekong.permissons
 
-        OKSDK：com.oksdk.channel
+        
 
         海外自主登录SDK：com.linekong.abroad
 
-        国内自主登录SDK：com.internal.sdk
+        国内自主登录(支付)钻石版SDK：com.internal.sdk
 
         海外支付SDK：com.linekong.pay
+        
+        OKSDK：com.oksdk.channel
 
 3.2 类名
 
