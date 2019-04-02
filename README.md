@@ -13,7 +13,7 @@
 
 2.3 尽量减少jar,aar的引用，采用maven引用的方式
 
-2.4so库调用时需要增加arm架构64位cpu的版本，googleplay强制要求
+2.4 so库调用时需要增加arm架构64位cpu的版本，googleplay强制要求
 
 ## 三 命名规范
 
@@ -23,43 +23,43 @@
 
 公司的SDK项目分为
 
-基础OKSDK基工程SDK、
+        基础OKSDK基工程SDK、
 
-网络SDK、
+        网络SDK、
 
-权限SDK、
+        权限SDK、
 
-OKSDK工程SDK、
+        OKSDK工程SDK、
 
-海外自主登录SDK、
+        海外自主登录SDK、
 
-海外渠道登录SDK、
+        海外渠道登录SDK、
 
-国内自主登录SDK、
+        国内自主登录SDK、
 
-国内渠道登录SDK、
+        国内渠道登录SDK、
 
-海外支付SDK（google）、
+        海外支付SDK（google）、
 
-海外支付SDK（onestore）...、
+        海外支付SDK（onestore）...、
 
-国内支付SDK（目前集成6中支付）
+        国内支付SDK（目前集成6中支付）
 
 包命名格式：顶级域名+公司名+业务名（功能名）
 
-目前OKSDK基工程包名：com.oksdk.helper
+        目前OKSDK基工程包名：com.oksdk.helper
 
-网络SDK：com.linekong.http
+        网络SDK：com.linekong.http
 
-权限SDK：com.linekong.permissons
+        权限SDK：com.linekong.permissons
 
-OKSDK：com.oksdk.channel
+        OKSDK：com.oksdk.channel
 
-海外自主登录SDK：com.linekong.abroad
+        海外自主登录SDK：com.linekong.abroad
 
-国内自主登录SDK：com.internal.sdk
+        国内自主登录SDK：com.internal.sdk
 
-海外支付SDK：com.linekong.pay
+        海外支付SDK：com.linekong.pay
 
 3.2 类名
 
@@ -107,34 +107,34 @@ UpperCamelCase大驼峰命名法
 
 lowerCamelCase风格，不细说
 
-3.4常量名
+3.4 常量名
 
 全部字母大写，单词用下划线隔开，必须使用static final修饰。哪些属性定义为常量？
 
 在SDK中，可定义常量的属性有：网络返回错误码、加密key、网络请求时间参数、偏好保存文件的key、intent传递的参数key、
 arguement参数的key、注册协议地址
 
-3.5非常量名
+3.5 非常量名
 
 lowerCamelCase 风格，不细说
 
-3.6参数名
+3.6 参数名
 
 lowerCamelCase 风格，在SDK中传递多个参数的格式是：
 
 method(context，param1,param2..,callback)
 
-3.7局部变量名
+3.7 局部变量名
 
 lowerCamelCase 风格，不细说
 
-3.8临时变量名
+3.8 临时变量名
 
 整型：i,j,k,m,n
 
 字符型：a,b,c,d,e
 
-3.9类型变量名
+3.9 类型变量名
 
 单个大写字母（可以跟一个数字）：T,T2
 
@@ -383,7 +383,6 @@ internalpay_dialog_cancel_btn
 fragment_login_pwd_icon
 
 ## 六 注释规范
-
 
 类注释，在AS中添加LiveTemplete模板，进入 Settings -> Editor -> File and Code Templates -> Includes -> File Header，输入
 ```java
